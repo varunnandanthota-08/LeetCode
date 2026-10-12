@@ -1,0 +1,10 @@
+// Last updated: 10/12/2026, 7:15:40 PM
+class Solution {
+public:
+    vector<double> convertTemperature(double celsius) {
+        vector<double>v(2);
+        v[0]=celsius+273.15;
+        v[1]=celsius*1.80+32.00;
+        return v;
+    }
+};
